@@ -7,3 +7,5 @@
     - To tackle the class-imbalance problem, I ensured that the ratio of class labels in the variable specified is constant by using the `stratify` argument in `train_test_split`.
     - To tackle the skew problem, I used `QuantileTransformer`.
   - I then trained various (7, to be precise) classifier models, ranging from KNN to SVMs to CatBoostClassifier, achieving a multi-class loss below 0.5.
+***
+S.D.G.
